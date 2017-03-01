@@ -1,4 +1,4 @@
 #/bin/sh
 
-ln -s ${pwd} ~/.vim
-ln -s ${pwd}/.vimrc ~./vimrc
+ln -s ${PWD} ~/.vim
+ln -s ${PWD}/.vimrc ~/.vimrc

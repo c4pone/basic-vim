@@ -13,6 +13,8 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 
 "" General
+let mapleader=','
+
 set number	" Show line numbers
 set linebreak	" Break lines at word (requires Wrap lines)
 set showbreak=+++	" Wrap-broken line prefix
@@ -37,3 +39,8 @@ set ruler	" Show row and column ruler information
 
 set undolevels=1000	" Number of undo levels
 set backspace=indent,eol,start	" Backspace behaviour
+
+nnoremap <leader>t :CtrlP<CR>
+nnoremap <leader>d :NERDTreeToggle<CR>
+
+
