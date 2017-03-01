@@ -8,6 +8,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'altercation/vim-colors-solarized'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -43,4 +44,6 @@ set backspace=indent,eol,start	" Backspace behaviour
 nnoremap <leader>t :CtrlP<CR>
 nnoremap <leader>d :NERDTreeToggle<CR>
 
+set background=dark
+colorscheme solarized
 
